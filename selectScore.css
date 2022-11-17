@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(137,8,228);
+}
+
+#inputs{
+    background-color: rgb(29, 139, 66);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    border-radius: 30px;
+    border: 2px solid rgb(201, 179, 179);
+}
+
+#numbers{
+    display: flex;
+    background-color: black;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.label{
+    font-size: 30px;
+    margin-right: 20px;
+    /* width: 30%; */
+    color: rgb(248, 252, 255);
+    
+}
+
+.dropDown{
+    font-size: 30px;
+    width: 90%;
+    margin-top: 10px;
+    /* background-color:rgb(137,8,228); */
+    border: 2px solid rgb(137,8,228);
+    border-radius: 5px;
+
+}
+
+.playButton{
+    margin: 20px 20px 20px 0px;
+    width: 120px;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.playButton:active{
+    opacity: 0.8;
+}
+
+.diceImage{
+    width: 6%;
+    margin: 20px 10px 10px 0px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+}
+
+#dicePic{
+    position: relative;
+    left: 220px;
+    top: 100px;
+    animation-name: dice_anim;
+    animation-duration: 2s;
+}
+
+    /* @keyframes dice_anim {
+        0% {left: 0px; right: 0px}
+        25% {left: 25px; right: 0px}
+        50% {left: 50px; right: 0px}
+        100% {left: 100px; right: 0px}
+    } */
+
+.diceImage:hover{
+        /* width: 4.2%; */
+        opacity: 0.8;
+        
+}
+
+.diceImage:active{
+    /* width: 5.3%; */
+    opacity: 0.5;
+}
+
+#numbers{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-right: 180px;
+    margin-left: 30px;
+    /* margin-top: -10px; */
+}
+
+#buttons{
+    margin-top: 90px;
+    /* margin-left: 400px; */
+    /* float: left; */
+    /* background-color: grey; */
+    /* width: 50px; */
+    /* margin-left: auto; */
+}
+
+#randNumberGenerated{
+    font-size: 30px;
+    color: white;
+    /* background-color: black; */
+}
+
+.playHomeButtons{
+    display: flex;
+}
+
+#home{
+    width: 120px;
+    background-color: brown;
+}
+
+#editValues{
+    width: 5%;
+    margin-top: 15%;
+    height: 3.8vh;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    opacity: 0.2;
+    
+}
+
+#editValues:hover{
+    opacity: 0.8;
+    background-color:rgb(49, 56, 51)
+}
+
+#editValues:active{
+    /* opacity: 0.8; */
+    background-color:rgb(150, 155, 151)
+}
+
+
+.total{
+    background-color: rgb(0, 0, 0);
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
